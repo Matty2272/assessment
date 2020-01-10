@@ -95,8 +95,8 @@ function assessment(userName) {
     return result;
 }
 
-//console.assert(
-//    assessment(userName) === assessment(userName),
-//    '診断結果の文言の特定の部分を名前に置き換える処理が正しくありません。'
-//);
-//console.log(assessment(userName));
+console.assert(
+    assessment(userName) === assessment(userName),
+    '診断結果の文言の特定の部分を名前に置き換える処理が正しくありません。'
+);
+console.log(assessment(userName));
